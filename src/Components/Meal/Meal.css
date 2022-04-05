@@ -1,0 +1,20 @@
+.meal-container {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0 30px;
+}
+.text {
+  margin-top: 20px;
+  color: #207398;
+}
+
+@media screen and (max-width: 768px) {
+  .meal-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    gap: 15px;
+  }
+}

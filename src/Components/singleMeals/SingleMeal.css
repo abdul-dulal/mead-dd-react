@@ -1,0 +1,22 @@
+.single-meal {
+  height: 420px;
+  width: 400px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+  margin-top: 25px;
+}
+
+input[type="text"] {
+  margin-top: 20px;
+  padding: 14px 51px;
+  border-radius: 10px;
+  box-shadow: darkgray;
+  /* background: gainsboro; */
+}
+.single img {
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.meal-info p {
+  margin: 10px;
+}
